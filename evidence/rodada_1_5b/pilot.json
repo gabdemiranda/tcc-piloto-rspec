@@ -1,0 +1,18 @@
+{
+  "p01": {
+    "subject": "TriagemDeAcervo::JanelaDeAclimatacao.minutos",
+    "started_utc": "2026-11-13T17:15:26.240363+00:00",
+    "finished_utc": "2026-11-13T17:16:28.677967+00:00",
+    "automated_seconds": 62.43760345600003,
+    "attempts": 3,
+    "passed": false
+  },
+  "p02": {
+    "subject": "RemessaDeCartazes::Rota.classificar",
+    "started_utc": "2026-11-13T17:16:28.678218+00:00",
+    "finished_utc": "2026-11-13T17:17:50.201823+00:00",
+    "automated_seconds": 81.52361577399995,
+    "attempts": 3,
+    "passed": false
+  }
+}

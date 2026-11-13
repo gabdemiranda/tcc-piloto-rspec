@@ -1,0 +1,33 @@
+```ruby
+require_relative '../lib/remessa_de_cartazes'
+
+RSpec.describe RemessaDeCartazes::Rota do
+  describe '.classificar' do
+    context 'quando não há pontos livres' do
+      it 'retorna :adiar' do
+        expect(RemessaDeCartazes::Rota.classificar(10, false, 0)).to eq(:adiar)
+      end
+    end
+
+    context 'quando há pontos livres e vidro' do
+      it 'retorna :protegida' do
+        expect(RemessaDeCartazes::Rota.classificar(10, true, 1)).to eq(:protegida)
+      end
+    end
+
+    context 'quando há pontos livres e não há vidro' do
+      context 'e a distância é até 8 km' do
+        it 'retorna :bairro' do
+          expect(RemessaDeCartazes::Rota.classificar(8, false, 1)).to eq(:bairro)
+        end
+      end
+
+      context 'e a distância é acima de 8 km' do
+        it 'retorna :regional' do
+          expect(RemessaDeCartazes::Rota.classificar(9, false, 1)).to eq(:regional)
+        end
+      end
+    end
+  end
+end
+```

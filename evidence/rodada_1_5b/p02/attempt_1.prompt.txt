@@ -1,0 +1,18 @@
+Write one RSpec 3 spec file for exactly the Ruby method below. Use require_relative '../lib/remessa_de_cartazes'. Do not use mocks, external libraries, filesystem, network, time, random inputs or alter the class. Use describe/it and explicit expect(...).to eq(...). Test every rule, priority and relevant boundary with representative literal inputs. Return the full Ruby file only.
+
+Contract (Portuguese):
+Método: RemessaDeCartazes::Rota.classificar(distancia_km, vidro, pontos_livres).
+Entradas: distância e pontos livres são inteiros não negativos; vidro é booleano.
+Aplique as regras em ordem de prioridade. Sem ponto livre, retorne :adiar. Com ponto livre e presença de vidro, retorne :protegida independentemente da distância. Nos demais casos, até 8 km (inclusive) retorne :bairro; acima de 8 km retorne :regional. A função não valida entradas fora do domínio.
+
+Ruby source:
+module RemessaDeCartazes
+  class Rota
+    def self.classificar(distancia_km, vidro, pontos_livres)
+      return :adiar if pontos_livres < 1
+      return :protegida if vidro
+      return :bairro if distancia_km <= 8
+      :regional
+    end
+  end
+end

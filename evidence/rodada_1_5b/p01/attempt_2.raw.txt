@@ -1,0 +1,26 @@
+```ruby
+require_relative '../lib/triagem_de_acervo'
+
+RSpec.describe TriagemDeAcervo::JanelaDeAclimatacao do
+  describe '#minutos' do
+    it 'returns 0 if caixas is less than 1' do
+      expect(TriagemDeAcervo::JanelaDeAclimatacao.minutos(0, 50)).to eq(0)
+    end
+
+    it 'returns 12 + caixas * 4 if caixas is greater than or equal to 1' do
+      expect(TriagemDeAcervo::JanelaDeAclimatacao.minutos(1, 50)).to eq(16)
+      expect(TriagemDeAcervo::JanelaDeAclimatacao.minutos(2, 50)).to eq(28)
+    end
+
+    it 'returns 21 if umidade is greater than or equal to 70' do
+      expect(TriagemDeAcervo::JanelaDeAclimatacao.minutos(1, 70)).to eq(21)
+      expect(TriagemDeAcervo::JanelaDeAclimatacao.minutos(2, 70)).to eq(25)
+    end
+
+    it 'returns 45 if the total exceeds 45 minutes' do
+      expect(TriagemDeAcervo::JanelaDeAclimatacao.minutos(1, 100)).to eq(45)
+      expect(TriagemDeAcervo::JanelaDeAclimatacao.minutos(2, 100)).to eq(45)
+    end
+  end
+end
+```

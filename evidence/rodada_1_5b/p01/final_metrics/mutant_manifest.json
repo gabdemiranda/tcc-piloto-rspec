@@ -1,0 +1,968 @@
+{
+  "available": [
+    {
+      "id": "aa358ce67882362fd135a3610e84a19817c2368cccf7aa62288a4b57206b6bd0",
+      "native_id": "neutral:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:3e2c3",
+      "kind": "Neutral",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "4df8f44cfd1d997a4b79de362a36d1c29e84b4c331f52b83e0270bff51b8bb7a",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:8c613",
+      "kind": "Evil",
+      "source": "def self.minutos\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "cb5a71a040bbf6f706162615caf0bcc42a6b539a7e198076a7c364fe2787104d",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:e0acd",
+      "kind": "Evil",
+      "source": "def self.minutos(umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "3c36aca54278cd8e377ddb4081704494a92863983fc56552aa77047a93606a66",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:413e3",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "c6f10b801ba805847efd958a9373e03273cfd6d3e4e03a74fa08afe68d9b0ccd",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:69b00",
+      "kind": "Evil",
+      "source": "def self.minutos(_caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "4e079bc65745580e7fc0fa8609dc604accc0cebab8b6adb508d72ff8ce878745",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:bc61a",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, _umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "58517cffeae3042bdd4953c59d604c1618a215a2ecd8eb88c0686ab0328bb8a7",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:40402",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  raise\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "ca2ddab928dc6bf7b8ca3838a61c670896730380700e2366baa899ecc8afb33f",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:bab16",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  super\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "60911d2854e17341f52e58532464325dd0a8f8b9876c6284e11856cfe2e4e2c1",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:a0d7c",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "4259f0d9b9cc747f9011086898188a2f64bdaae4e750fdaf5c34bb1a171f91d6",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:f8726",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  nil\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "00961005666636d1b30e573f0c6ba22085abe50520bf01a72f59e676a21cf741",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:712bc",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  self\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "44f3469538d77222f6702cf4de2e96d9940740233cfdca19f9786c8b6860aad7",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:c6bbb",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if nil\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "5533c4b5ad9205e35074a63141e36a1caf30e04b62d855da40a50ade420e29d4",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:a4b58",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if caixas\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "08c918b9d0b2e27d2ac4b60b597640ccce9cecf87c49b64fbe8d58ac50d582d9",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:eb099",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (nil < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "46978cb025a7179aa3049c4b8f30fde5fa36d819e5e538fc7b65140319931309",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:335c5",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (self < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "ffa3b31b6fd81de89af82c6e285b71522e42543e138b49f6a8607569768b363e",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:2eea8",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas == 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "315430669c65203b88d2b22c68a2fdf3b771e0582e96637e26232c6139205230",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:259b8",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas <= 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "72d1a44e97eff955245f9d8d34fbb36210d0b70e2f2926a1149d601a2e771deb",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:871ca",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if caixas.eql?(1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "ad70d12e6048e25d1cd724facb37ff7519cd0b04e3f561edd8290fa36740aeb4",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:747e5",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if caixas.equal?(1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "346566b0ee68cfce6d1cffab1f887839278dfc530a442a0a4fa09448e55dc2aa",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:63320",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if 1\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "35a302f92f04753e2e1d5b975797f15267ac74dedca5bfa5ee4ba455825e7e4f",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:3df24",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < nil)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "323303d379933d0bcc4168687846c7035260ee164e41db393417308652a0699f",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:01198",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < self)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "b3d4c960100d8ed5034296b58734ef49d2e69cc0f8f1a27927fad8e1e42c0d49",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:57634",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 0)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "65919f07e028f1349e78f1b84166c5cc32293d1ccee3b7f55c8b9b4114955e83",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:b572e",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < (-1))\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "734cee042105adcfb966fc1be6d9be16d8ebf12f60e39dd0fc33684de4f9cc30",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:e1aa5",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 2)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "4d820eff3b709969b9ff915be0b2a904a9f9136da4fa33a0ca763f8532695a99",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:f4c0c",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (!(caixas < 1))\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "477ae64a892d21a706be59114b6ccffed4656e20da421327691cd1d3bf18caa2",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:7760d",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if true\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "998a5ab3e92c61c32b35c855bc59742e136854790713bb35de572559ce6585ba",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:f0da3",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if false\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "d3042370a04daac9da0b0ba6cc870bc3de7c468804cada71789cfd9ae61df31f",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:0afc4",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  return 0\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "ecd5e05439a11f27ae53ec19b5da415f4dd18880bc782b31e4cc39143dd9bf3c",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:fadf3",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    nil\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "54b353a422b98e1e311bd8c7c1176e697ec31a0be92d712640decdfe66aa6b1d",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:38e06",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    self\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "a0a67018fccb7cd1e73460ae073a6b619a541ec22cf89d2905691cdf4bff3d92",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:08736",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "19d1f5a85c33aebfff5279e6e215cc179988294257e9e61110266d4b27b15164",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:f2886",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return nil\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "4e0a4b71c65b3468744af0fa39743a3e981f835a8b1f506d3a134bb9527e32bd",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:40ae7",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return self\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "4dd006566e288eb029f81f88e6d86816f5967cb2077f62da0bd66e55eef6575d",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:06a23",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 1\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "7ff5f4cfcb8d212ba2a3c8c6799b38c145157fb1f1688c6dd53d29ee72f1c0ad",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:5d303",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return -1\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "3fda5b12b2f93a66119a3e710767c67566a5ef42980928052bf08ccc2d45f326",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:bbc49",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "44ebcf2aef4f17943ac8af24bf467cccee23f62faca96690d137c9f556128fa8",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:35f58",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  nil\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "49fdf863d3905f616d019b60904ff74d62df416bfdea30981f7a04c395a1da8a",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:795a0",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  self\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "1abad718f0c82b7843a77ba8ce8461863eb6c66ecef5fe63059091663c2894a4",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:45fba",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera__mutant__ = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "81ccea8824a47c9fd6901781352e3a1085487817c7ded2efc05bf41a4241abcc",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:8c9aa",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = nil\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "8ab3d7eab4b3055a3c3b990c8918de6e481f1b4731184a064e2b8ba66947aa97",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:7c290",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = self\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "aa1f575c30ed802f879561e3d4f94717371d1817166226e3cdf39c6de192a9ef",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:0c2b1",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = 12\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "9c7f7c5b67a509dc568a5bbc4b145ad257098705d4e0f2f023376ebd9338c0f5",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:a5a0f",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (nil + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "913697d5fcf4b997f4c63ff66692eed8b6653dd723dab79aa68a59107226a16f",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:76412",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (self + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "ae87c3d1586524ffced79dfe8ca4ba23308a9672d73373e3a7368cc32df9f93e",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:467f0",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (0 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "93270a6c04166ca6426d9fe554078f91bba35bd8ca28a14c3945ac50b5136a52",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:56957",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (1 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "6c4b9cfb9a15340be02c71b2e204bbce628d93963645c81b3d5fdbfc0a7c2ea7",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:cf8a4",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = ((-12) + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "b07d260cce8d5b01c584de342686673b78a3352e7d7c38fffd0b9cdc0f52a6ce",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:cf0a8",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (13 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "12afcb222e1ea698424ba8ca7390e7e7c5087459dbc2fb78d098e9cc3e938204",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:6aed4",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (11 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "4cd2a976579a64a88aad24acd9412045b82ee42fac770888f44e02cfcb367c6f",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:c02da",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (caixas * 4)\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "2aa931691285f7de608707ad83ab5d8a7e5acb4c7bee2535855a7f39fe9faa55",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:8595f",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + nil)\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "420a65f30fc43c2b64d54ba29d8fcd2e7173a079322bf1cab63fbc6790544dfb",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:78353",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + self)\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "3520ac9f3d7598470174377f5b08797a4e2f4177d71908a7201a660bd478d868",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:bfea2",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + caixas)\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "a8d5d50274f0f39fac0af4359ffde1d6b073fb03ecb20c87201ff324b03f82f7",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:46aac",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (nil * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "e8ece0b092331dffdb6652e5f2dd32862f607a4450dac75544884a00df19dc59",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:af88a",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (self * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "55726dc90342a2e3dec1fb20bd5fb69da96e7578c9ee32e55700c1345f7c3d91",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:d6f4a",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + 4)\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "661a313a40b6c177e7f7bd6816e69f375354c4e8b32959ad04f391677adda98c",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:414da",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * nil))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "74c1a58bf0fee44141d7d819ba378bdd771b7ec0b188cc870a17e02237ef2944",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:1ab1a",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * self))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "e5f0220cd37fad89b779c2253f2db7df8df780dfa3a8d1c0025bba5f4747d317",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:9cdfe",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 0))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "fbcfb2d45a4edc935ad06dddbe7b112ef095e8459402ac987b8b4957653d8786",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:7a14f",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 1))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "ac2d873e36f1bf4f735ee1b9ce668fd872faa26b382ee4edd151d8b20d6d0b51",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:64149",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * (-4)))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "e31d22aa22544c809622db4bea69502a4cea070659fd276633d954e954eb4d44",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:bc5ff",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 5))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "b0e201d4eaefdb3f0ea676b474280882198210a8c1f98cec33d02d43b042be7b",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:e0aaf",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 3))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "d7344e703d340db559343e94e2df4193d1384702980cc8c554cb579b1543fe1a",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:09a58",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  espera = (12 + (caixas * 4))\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "fd5a76525d9ef6b72f14afb2bf87a716915382e57712bd3a94dd96fcb5270a84",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:1abcd",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  nil\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "d450e324cf507cbdc443217006ca47232797e37e47956b13b9e266209294cb4b",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:bf473",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  self\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "7e9a0081f5a8e7782133fb1daeef87ebb3432039adc1094827caf115c35392c5",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:46863",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if nil\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "1b359773c99baf487b18194683bd7c022b1e05fc0c3b4b30d2c7dac16a6a7bb2",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:18a0f",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if umidade\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "0743a85597ef1987367f87cc062cfa97faee89f06c7cc536ba01d28a5343f1da",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:31523",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (nil >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "bf5ec73543fd6b64af8ac446386f27ee78b7584eeb989aa8ebebe1f7d4535ebd",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:f14a8",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (self >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "09bf4bb87e8dc35231e57553ebf7dac925661e8fc1610177152d0dbaf82aced8",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:02545",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade > 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "aca992e419f148ee13a6ae293648a4d4e52ff1a657d11833ea3d3bf957babcea",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:f9410",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade == 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "751dc9ae4eb633ad0e6bf6c9146d6291124b83ef031a8178f5c253fd641fb66b",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:9a96d",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if umidade.eql?(70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "537035f952c390a3292f90d56877c521a14b33368f0729beb88113b13b493ee5",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:31abe",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if umidade.equal?(70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "181cbb2861f105ab970feb2eab28091bfe2616674d4c2b4e2d26343c3deb2573",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:ba880",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if 70\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "52d14566eb5a8109233e29b8dc811eaf2aa36785aac02c69a2ae57da701b4b37",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:106d9",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= nil)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "0d8efa4575df6fac9290e31dd5e244c042b73144e8daf7fd574f774e0bc09b1b",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:65abf",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= self)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "1c8a40a45d1253f1e5a8985ad80e50084501614312601f251dc9b22468b67168",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:7e328",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 0)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "f207f2cd79fd6a1150bf77aa58af2479e655a2044e1a7df9aa157ba7bd45e699",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:d9daf",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 1)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "ec666fc5b6b2a5ef50c5d77376fce27cf5efa98b920fc6011a7246ac32e4843f",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:e1b5a",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= (-70))\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "693e2ab3581f82125380b07af07b2efa717d201d34aa4ea885620eb85201e3ca",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:cc829",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 71)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "158aeb0b64b4248856375070226d56632d9587e422d0af14021256111077148f",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:e9c9e",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 69)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "e57f1dea8618e334b70842fd54dc23067c72419861957507b7942c30bc791984",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:55a0c",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (!(umidade >= 70))\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "55530019da10822076dd58a548ac451225772a0eb9332dedef816e090ded133b",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:d31fc",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if true\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "218f9d864c5c071852c53b389451dc761ab174dc1d2166408c8f0209b851cb19",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:2bfcc",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if false\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "ca3ecdad2a6281eaa7c82549f8fa408cd089207a2f0b6dbc2ed27b6dcec7a6e4",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:0a70e",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  espera += 9\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "69628b83f7c3ce7e898ba10099c01499a685b25879f5c203fb89492eea711257",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:541a9",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    nil\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "4a17edb5946f4f9e14cff21529566094f9bef2a9a829abe1d6f1355bc0d0ac2c",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:71bd7",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    self\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "735228351e713b6c4db3496e38443b7ad43ae265b5b10ec02d5311f10eb8f723",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:f3b43",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera__mutant__ += 9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "58416b8084b209e9a842ee4b26137b48f5e4b546e27a66947e782d1409c4e691",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:7dc4e",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += nil\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "7ca3223d75cd16b4e38408882cd1fcd6eae0b804ca4b0c2ba9852c885fbb4cf5",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:497c8",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += self\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "de0b25fcb4999f96f80298a54ce1b06ef4c8746ebc47e4593631c15b3afdcbd7",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:d749e",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 0\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "ffd0844d42c9a536869c3cb9edb62f4a8272b3be8f9d964e5837ec220de6f8e0",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:ab5b8",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 1\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "808f9e46682b4b7d191d6471aa2923e799649d8463c627828f41ac7d19d0d013",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:56d77",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += -9\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "b8e46dabe3b4682d92e8775513b051d3074632faf147c25add47baef0279acd0",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:5f357",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 10\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "c9845407b4a5a81e106ad0f5488eee9f295ffec17753ac812f5d8ea362dd9348",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:58122",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 8\n  end\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "61435724b4bc542f772543362a59d0a3350b5d75ce6a7bde95ed54517f881e1f",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:48ab3",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (umidade >= 70)\n    espera += 9\n  end\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "0b073cecd8cd84a3d60e1881fb9479a946d9bf59957fc7416c5c44dbc4e51daa",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:4b70e",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  nil\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "08111f5fc4446dc24db38274ca3d3e3f9d91c3065a5db97c896494df906289f6",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:724a4",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  self\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "8625e4e276528106499bcd3a7f8914d08c761d35290c85ddc4e0c746256855e2",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:63227",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45]\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "1388d286b331f623de285cb18c7f686113a6054c2513f6cb923dc79e7703c716",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:da667",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  self.min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "04f69e3bdd19425e1427ad8cc26e94305fd39fc92142da4f6e29b2fadf7439d0",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:abfee",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "59004824514d3c8bf19d06974bcb1a8219662eba9414efc06b5534b1066cb4be",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:ad059",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "721c5995a684942de4932df725654b8272b663e62fca7bc691fcdfee248426f7",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:253d6",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [nil, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "56b5f93047a6821bb3aab31bf6e4c4fd7c5599ff8bec24a492cf7e069cdee3fe",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:d2f58",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [self, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "88dfa3b3176ff79a2ff6750e716fdfaf8fcc09237794ee4377924fd97e8cb165",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:7a05f",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "8b5812fcc3de0b22cd45abab34fbb489111eedde99b460a38d9fcbe7450a9c23",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:72883",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, nil].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "cad445577db2d8c0650b58de2dbf4fefece60928169e05eb6e556e23aed2979d",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:7caf9",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, self].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "358bb71637271acc5e71668fa2a49ddc6ecd8b1953861dfc3f6aeac24718f91b",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:f23e1",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 0].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "3064c70f20dd5d538f7f4ed8bd4a5c9afd888b125d2440470da2e2fb7bfa3906",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:75e4f",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 1].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "6c579d28e5f34636beb20fd9440a8f9284ac6efd49da1dbef013ddbcf74acbf6",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:4ccc1",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, -45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "6875f4d6f012c812de632346ff9f76526c5b3910a253ddf861686da1ea3b5400",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:27fda",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 46].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "d3587814568f32f558817ab83e4abdef7e1b0d0e43b112901df369e2eb630dbe",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:b4c58",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 44].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "63a4b393aff32a4a3b5493fb472696725a496ae4f1c7aa3bc874bd22ebe2507d",
+      "native_id": "evil:TriagemDeAcervo::JanelaDeAclimatacao.minutos:/study/lib/triagem_de_acervo.rb:3:52c32",
+      "kind": "Evil",
+      "source": "def self.minutos(caixas, umidade)\n  [espera, 45].min\nend",
+      "original_source": "def self.minutos(caixas, umidade)\n  if (caixas < 1)\n    return 0\n  end\n  espera = (12 + (caixas * 4))\n  if (umidade >= 70)\n    espera += 9\n  end\n  [espera, 45].min\nend",
+      "syntax_valid": true
+    }
+  ],
+  "selected_ids": [
+    "a0a67018fccb7cd1e73460ae073a6b619a541ec22cf89d2905691cdf4bff3d92",
+    "ac2d873e36f1bf4f735ee1b9ce668fd872faa26b382ee4edd151d8b20d6d0b51",
+    "ae87c3d1586524ffced79dfe8ca4ba23308a9672d73373e3a7368cc32df9f93e",
+    "59004824514d3c8bf19d06974bcb1a8219662eba9414efc06b5534b1066cb4be",
+    "ffd0844d42c9a536869c3cb9edb62f4a8272b3be8f9d964e5837ec220de6f8e0",
+    "d3042370a04daac9da0b0ba6cc870bc3de7c468804cada71789cfd9ae61df31f",
+    "d450e324cf507cbdc443217006ca47232797e37e47956b13b9e266209294cb4b",
+    "de0b25fcb4999f96f80298a54ce1b06ef4c8746ebc47e4593631c15b3afdcbd7",
+    "55530019da10822076dd58a548ac451225772a0eb9332dedef816e090ded133b",
+    "ffa3b31b6fd81de89af82c6e285b71522e42543e138b49f6a8607569768b363e",
+    "751dc9ae4eb633ad0e6bf6c9146d6291124b83ef031a8178f5c253fd641fb66b",
+    "65919f07e028f1349e78f1b84166c5cc32293d1ccee3b7f55c8b9b4114955e83",
+    "3520ac9f3d7598470174377f5b08797a4e2f4177d71908a7201a660bd478d868",
+    "cad445577db2d8c0650b58de2dbf4fefece60928169e05eb6e556e23aed2979d",
+    "4e079bc65745580e7fc0fa8609dc604accc0cebab8b6adb508d72ff8ce878745",
+    "1c8a40a45d1253f1e5a8985ad80e50084501614312601f251dc9b22468b67168",
+    "4e0a4b71c65b3468744af0fa39743a3e981f835a8b1f506d3a134bb9527e32bd",
+    "44f3469538d77222f6702cf4de2e96d9940740233cfdca19f9786c8b6860aad7",
+    "4a17edb5946f4f9e14cff21529566094f9bef2a9a829abe1d6f1355bc0d0ac2c",
+    "0b073cecd8cd84a3d60e1881fb9479a946d9bf59957fc7416c5c44dbc4e51daa",
+    "d3587814568f32f558817ab83e4abdef7e1b0d0e43b112901df369e2eb630dbe",
+    "0743a85597ef1987367f87cc062cfa97faee89f06c7cc536ba01d28a5343f1da",
+    "72d1a44e97eff955245f9d8d34fbb36210d0b70e2f2926a1149d601a2e771deb",
+    "218f9d864c5c071852c53b389451dc761ab174dc1d2166408c8f0209b851cb19",
+    "46978cb025a7179aa3049c4b8f30fde5fa36d819e5e538fc7b65140319931309",
+    "ec666fc5b6b2a5ef50c5d77376fce27cf5efa98b920fc6011a7246ac32e4843f",
+    "323303d379933d0bcc4168687846c7035260ee164e41db393417308652a0699f",
+    "1388d286b331f623de285cb18c7f686113a6054c2513f6cb923dc79e7703c716",
+    "aca992e419f148ee13a6ae293648a4d4e52ff1a657d11833ea3d3bf957babcea",
+    "7ff5f4cfcb8d212ba2a3c8c6799b38c145157fb1f1688c6dd53d29ee72f1c0ad",
+    "19d1f5a85c33aebfff5279e6e215cc179988294257e9e61110266d4b27b15164",
+    "1abad718f0c82b7843a77ba8ce8461863eb6c66ecef5fe63059091663c2894a4",
+    "6875f4d6f012c812de632346ff9f76526c5b3910a253ddf861686da1ea3b5400",
+    "12afcb222e1ea698424ba8ca7390e7e7c5087459dbc2fb78d098e9cc3e938204",
+    "8ab3d7eab4b3055a3c3b990c8918de6e481f1b4731184a064e2b8ba66947aa97",
+    "2aa931691285f7de608707ad83ab5d8a7e5acb4c7bee2535855a7f39fe9faa55",
+    "0d8efa4575df6fac9290e31dd5e244c042b73144e8daf7fd574f774e0bc09b1b",
+    "181cbb2861f105ab970feb2eab28091bfe2616674d4c2b4e2d26343c3deb2573",
+    "b07d260cce8d5b01c584de342686673b78a3352e7d7c38fffd0b9cdc0f52a6ce",
+    "56b5f93047a6821bb3aab31bf6e4c4fd7c5599ff8bec24a492cf7e069cdee3fe"
+  ],
+  "seed": 20261113,
+  "cap": 40
+}

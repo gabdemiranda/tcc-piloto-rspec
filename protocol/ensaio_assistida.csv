@@ -1,0 +1,6 @@
+alvo,condicao,categoria,inicio_utc,fim_utc,segundos,desfecho
+ensaio,assistida,leitura,2026-11-13T17:17:09.785+00:00,2026-11-13T17:17:09.836+00:00,0.050775,
+ensaio,assistida,espera_modelo,2026-11-13T17:17:09.836+00:00,2026-11-13T17:17:09.885+00:00,0.049424,
+ensaio,assistida,revisao,2026-11-13T17:17:09.885+00:00,2026-11-13T17:17:09.948+00:00,0.062957,
+ensaio,assistida,pausa_externa,2026-11-13T17:17:09.948+00:00,2026-11-13T17:17:09.990+00:00,0.041312,
+ensaio,assistida,validacao,2026-11-13T17:17:09.990+00:00,2026-11-13T17:17:10.043+00:00,0.053007,aceita

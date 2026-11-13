@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+node_modules/
+gems/
+pesos/
+*.gguf
+novas_medicoes/
+targets_main.json
+ordem.json
+auditoria.json
+tempos/
+coleta/
+coleta_privada/

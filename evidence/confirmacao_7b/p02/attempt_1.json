@@ -1,0 +1,20 @@
+{
+  "attempt": 1,
+  "model": {
+    "load_seconds": 4.321179003,
+    "inference_seconds": 47.182994322000006,
+    "stop_reason": "eogToken"
+  },
+  "syntax": {
+    "status": 0,
+    "timeout": false,
+    "seconds": 0.016638542000009693,
+    "log": "Syntax OK\n"
+  },
+  "rspec": {
+    "status": 0,
+    "timeout": false,
+    "seconds": 0.1653863609999462,
+    "log": "....\n\nFinished in 0.0025 seconds (files took 0.07388 seconds to load)\n4 examples, 0 failures\n\n"
+  }
+}

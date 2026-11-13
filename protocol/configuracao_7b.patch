@@ -1,0 +1,64 @@
+From e09873901f2f753ad3f669deeca5b2a34257afe7 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?TCC=20=E2=80=94=20registro=20do=20piloto?=
+ <tcc-piloto@invalid.example>
+Date: Fri, 13 Nov 2026 14:22:31 -0300
+Subject: [PATCH] =?UTF-8?q?Congela=20configura=C3=A7=C3=A3o=20de=207B=20pa?=
+ =?UTF-8?q?ra=20rodada=20de=20confirma=C3=A7=C3=A3o,=20com=20os=20mesmos?=
+ =?UTF-8?q?=20alvos=20e=20prompt?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+---
+ model-manifest.json | 8 ++++----
+ model.json          | 6 +++---
+ 2 files changed, 7 insertions(+), 7 deletions(-)
+
+diff --git a/model-manifest.json b/model-manifest.json
+index eb5b99c..4ce736c 100644
+--- a/model-manifest.json
++++ b/model-manifest.json
+@@ -3,14 +3,14 @@
+   "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+   "config": {
+     "mediaType": "application/vnd.docker.container.image.v1+json",
+-    "digest": "sha256:152cb442202b836b5415fe4397169982b74dc3bdbb06b9777a126e0161c740da",
++    "digest": "sha256:d9bb33f2786931fea42f50936a2424818aa2f14500638af2f01861eb2c8fb446",
+     "size": 487
+   },
+   "layers": [
+     {
+       "mediaType": "application/vnd.ollama.image.model",
+-      "digest": "sha256:29d8c98fa6b098e200069bfb88b9508dc3e85586d20cba59f8dda9a808165104",
+-      "size": 986048576
++      "digest": "sha256:60e05f2100071479f596b964f89f510f057ce397ea22f2833a0cfe029bfc2463",
++      "size": 4683074048
+     },
+     {
+       "mediaType": "application/vnd.ollama.image.system",
+@@ -28,4 +28,4 @@
+       "size": 11343
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/model.json b/model.json
+index 13a29a0..0c2c41e 100644
+--- a/model.json
++++ b/model.json
+@@ -1,8 +1,8 @@
+ {
+-  "name": "Qwen2.5-Coder-1.5B-Instruct",
+-  "distribution": "ollama.com/library/qwen2.5-coder:1.5b",
++  "name": "Qwen2.5-Coder-7B-Instruct",
++  "distribution": "ollama.com/library/qwen2.5-coder:7b",
+   "quantization": "Q4_K_M",
+-  "sha256": "29d8c98fa6b098e200069bfb88b9508dc3e85586d20cba59f8dda9a808165104",
++  "sha256": "60e05f2100071479f596b964f89f510f057ce397ea22f2833a0cfe029bfc2463",
+   "mode": "local CPU",
+   "engine": "node-llama-cpp",
+   "engine_version": "3.22.3",
+-- 
+2.52.0
+

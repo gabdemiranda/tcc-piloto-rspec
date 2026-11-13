@@ -1,0 +1,18 @@
+Write one RSpec 3 spec file for exactly the Ruby method below. Use require_relative '../lib/triagem_de_acervo'. Do not use mocks, external libraries, filesystem, network, time, random inputs or alter the class. Use describe/it and explicit expect(...).to eq(...). Test every rule, priority and relevant boundary with representative literal inputs. Return the full Ruby file only.
+
+Contract (Portuguese):
+Método: TriagemDeAcervo::JanelaDeAclimatacao.minutos(caixas, umidade).
+Entradas: caixas é um inteiro não negativo; umidade é um inteiro de 0 a 100.
+Com zero caixas o resultado é 0, qualquer que seja a umidade. Com ao menos uma caixa, o tempo de espera é 12 minutos mais 4 minutos por caixa. Some 9 minutos se a umidade for maior ou igual a 70. O tempo final não pode superar 45 minutos. O resultado é um inteiro. A função não valida valores fora do domínio.
+
+Ruby source:
+module TriagemDeAcervo
+  class JanelaDeAclimatacao
+    def self.minutos(caixas, umidade)
+      return 0 if caixas < 1
+      espera = 12 + caixas * 4
+      espera += 9 if umidade >= 70
+      [espera, 45].min
+    end
+  end
+end

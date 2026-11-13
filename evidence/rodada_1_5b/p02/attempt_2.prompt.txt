@@ -1,0 +1,113 @@
+Write one RSpec 3 spec file for exactly the Ruby method below. Use require_relative '../lib/remessa_de_cartazes'. Do not use mocks, external libraries, filesystem, network, time, random inputs or alter the class. Use describe/it and explicit expect(...).to eq(...). Test every rule, priority and relevant boundary with representative literal inputs. Return the full Ruby file only.
+
+Contract (Portuguese):
+Método: RemessaDeCartazes::Rota.classificar(distancia_km, vidro, pontos_livres).
+Entradas: distância e pontos livres são inteiros não negativos; vidro é booleano.
+Aplique as regras em ordem de prioridade. Sem ponto livre, retorne :adiar. Com ponto livre e presença de vidro, retorne :protegida independentemente da distância. Nos demais casos, até 8 km (inclusive) retorne :bairro; acima de 8 km retorne :regional. A função não valida entradas fora do domínio.
+
+Ruby source:
+module RemessaDeCartazes
+  class Rota
+    def self.classificar(distancia_km, vidro, pontos_livres)
+      return :adiar if pontos_livres < 1
+      return :protegida if vidro
+      return :bairro if distancia_km <= 8
+      :regional
+    end
+  end
+end
+
+Repair the preceding proposed spec; return the entire Ruby spec.
+Previous Ruby:
+require_relative '../lib/remessa_de_cartazes'
+
+RSpec.describe RemessaDeCartazes::Rota do
+  describe '.classificar' do
+    it 'returns :adiar if pontos_livres < 1' do
+      expect(RemessaDeCartazes::Rota.classificar(0, true, 0)).to eq(:adiar)
+      expect(RemessaDeCartazes::Rota.classificar(0, false, 0)).to eq(:adiar)
+      expect(RemessaDeCartazes::Rota.classificar(0, true, 1)).to eq(:adiar)
+      expect(RemessaDeCartazes::Rota.classificar(0, false, 1)).to eq(:adiar)
+    end
+
+    it 'returns :protegida if vidro' do
+      expect(RemessaDeCartazes::Rota.classificar(0, true, 0)).to eq(:protegida)
+      expect(RemessaDeCartazes::Rota.classificar(0, false, 0)).to eq(:protegida)
+      expect(RemessaDeCartazes::Rota.classificar(0, true, 1)).to eq(:protegida)
+      expect(RemessaDeCartazes::Rota.classificar(0, false, 1)).to eq(:protegida)
+    end
+
+    it 'returns :bairro if distancia_km <= 8' do
+      expect(RemessaDeCartazes::Rota.classificar(0, true, 0)).to eq(:bairro)
+      expect(RemessaDeCartazes::Rota.classificar(0, false, 0)).to eq(:bairro)
+      expect(RemessaDeCartazes::Rota.classificar(0, true, 1)).to eq(:bairro)
+      expect(RemessaDeCartazes::Rota.classificar(0, false, 1)).to eq(:bairro)
+    end
+
+    it 'returns :regional if distancia_km > 8' do
+      expect(RemessaDeCartazes::Rota.classificar(9, true, 0)).to eq(:regional)
+      expect(RemessaDeCartazes::Rota.classificar(9, false, 0)).to eq(:regional)
+      expect(RemessaDeCartazes::Rota.classificar(9, true, 1)).to eq(:regional)
+      expect(RemessaDeCartazes::Rota.classificar(9, false, 1)).to eq(:regional)
+    end
+  end
+end
+
+RSpec/Ruby output:
+ # -e:1:in `<main>'
+
+  2) RemessaDeCartazes::Rota.classificar returns :protegida if vidro
+     Failure/Error: expect(RemessaDeCartazes::Rota.classificar(0, true, 0)).to eq(:protegida)
+
+       expected: :protegida
+            got: :adiar
+
+       (compared using ==)
+
+       Diff:
+       @@ -1 +1 @@
+       -:protegida
+       +:adiar
+     # ./spec/candidate_spec.rb:13:in `block (3 levels) in <top (required)>'
+     # -e:1:in `<main>'
+
+  3) RemessaDeCartazes::Rota.classificar returns :bairro if distancia_km <= 8
+     Failure/Error: expect(RemessaDeCartazes::Rota.classificar(0, true, 0)).to eq(:bairro)
+
+       expected: :bairro
+            got: :adiar
+
+       (compared using ==)
+
+       Diff:
+       @@ -1 +1 @@
+       -:bairro
+       +:adiar
+     # ./spec/candidate_spec.rb:20:in `block (3 levels) in <top (required)>'
+     # -e:1:in `<main>'
+
+  4) RemessaDeCartazes::Rota.classificar returns :regional if distancia_km > 8
+     Failure/Error: expect(RemessaDeCartazes::Rota.classificar(9, true, 0)).to eq(:regional)
+
+       expected: :regional
+            got: :adiar
+
+       (compared using ==)
+
+       Diff:
+       @@ -1 +1 @@
+       -:regional
+       +:adiar
+     # ./spec/candidate_spec.rb:27:in `block (3 levels) in <top (required)>'
+     # -e:1:in `<main>'
+
+Finished in 0.0111 seconds (files took 0.05248 seconds to load)
+4 examples, 4 failures
+
+Failed examples:
+
+rspec ./spec/candidate_spec.rb:5 # RemessaDeCartazes::Rota.classificar returns :adiar if pontos_livres < 1
+rspec ./spec/candidate_spec.rb:12 # RemessaDeCartazes::Rota.classificar returns :protegida if vidro
+rspec ./spec/candidate_spec.rb:19 # RemessaDeCartazes::Rota.classificar returns :bairro if distancia_km <= 8
+rspec ./spec/candidate_spec.rb:26 # RemessaDeCartazes::Rota.classificar returns :regional if distancia_km > 8
+

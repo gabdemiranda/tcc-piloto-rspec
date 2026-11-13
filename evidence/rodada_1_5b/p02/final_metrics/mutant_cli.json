@@ -1,0 +1,6 @@
+{
+  "status": 0,
+  "timeout": false,
+  "seconds": 3.380873235999843,
+  "log": "warning: parser/current is loading parser/ruby25, which recognizes\nwarning: 2.5.x-compliant syntax, but you are running 3.3.8.\nwarning: please see https://github.com/whitequark/parser#compatibility-with-ruby-mri.\nMutant configuration:\nMatcher:         #<Mutant::Matcher::Config match_expressions: [RemessaDeCartazes::Rota.classificar]>\nIntegration:     Mutant::Integration::Rspec\nJobs:            1\nIncludes:        [\"/study/lib\"]\nRequires:        [\"remessa_de_cartazes\"]\n(00/85) 100% - killtime: 0.00s runtime: 0.00s overhead: 0.00s\n(30/85) 100% - killtime: 0.72s runtime: 1.00s overhead: 0.28s\n(68/85) 100% - killtime: 1.33s runtime: 2.00s overhead: 0.68s\n(85/85) 100% - killtime: 1.58s runtime: 3.00s overhead: 1.42s\nMutant configuration:\nMatcher:         #<Mutant::Matcher::Config match_expressions: [RemessaDeCartazes::Rota.classificar]>\nIntegration:     Mutant::Integration::Rspec\nJobs:            1\nIncludes:        [\"/study/lib\"]\nRequires:        [\"remessa_de_cartazes\"]\nSubjects:        1\nMutations:       85\nResults:         85\nKills:           85\nAlive:           0\nRuntime:         3.00s\nKilltime:        1.58s\nOverhead:        89.67%\nMutations/s:     28.31\nCoverage:        100.00%\n"
+}

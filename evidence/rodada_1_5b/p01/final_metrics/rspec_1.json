@@ -1,0 +1,6 @@
+{
+  "status": 0,
+  "timeout": false,
+  "seconds": 0.16486478100000568,
+  "log": "....\n\nFinished in 0.0011 seconds (files took 0.1056 seconds to load)\n4 examples, 0 failures\n\nSimpleCov lib/triagem_de_acervo.rb: linhas 7/7; ramificações 4/4\n"
+}

@@ -1,0 +1,20 @@
+{
+  "attempt": 2,
+  "model": {
+    "load_seconds": 2.0868784540000003,
+    "inference_seconds": 20.604299836,
+    "stop_reason": "eogToken"
+  },
+  "syntax": {
+    "status": 0,
+    "timeout": false,
+    "seconds": 0.016528665999999248,
+    "log": "Syntax OK\n"
+  },
+  "rspec": {
+    "status": 1,
+    "timeout": false,
+    "seconds": 0.16470750399992085,
+    "log": ".FFF\n\nFailures:\n\n  1) TriagemDeAcervo::JanelaDeAclimatacao#minutos returns 12 + caixas * 4 if caixas is greater than or equal to 1\n     Failure/Error: expect(TriagemDeAcervo::JanelaDeAclimatacao.minutos(2, 50)).to eq(28)\n\n       expected: 28\n            got: 20\n\n       (compared using ==)\n     # ./spec/candidate_spec.rb:11:in `block (3 levels) in <top (required)>'\n     # -e:1:in `<main>'\n\n  2) TriagemDeAcervo::JanelaDeAclimatacao#minutos returns 21 if umidade is greater than or equal to 70\n     Failure/Error: expect(TriagemDeAcervo::JanelaDeAclimatacao.minutos(1, 70)).to eq(21)\n\n       expected: 21\n            got: 25\n\n       (compared using ==)\n     # ./spec/candidate_spec.rb:15:in `block (3 levels) in <top (required)>'\n     # -e:1:in `<main>'\n\n  3) TriagemDeAcervo::JanelaDeAclimatacao#minutos returns 45 if the total exceeds 45 minutes\n     Failure/Error: expect(TriagemDeAcervo::JanelaDeAclimatacao.minutos(1, 100)).to eq(45)\n\n       expected: 45\n            got: 25\n\n       (compared using ==)\n     # ./spec/candidate_spec.rb:20:in `block (3 levels) in <top (required)>'\n     # -e:1:in `<main>'\n\nFinished in 0.00947 seconds (files took 0.05477 seconds to load)\n4 examples, 3 failures\n\nFailed examples:\n\nrspec ./spec/candidate_spec.rb:9 # TriagemDeAcervo::JanelaDeAclimatacao#minutos returns 12 + caixas * 4 if caixas is greater than or equal to 1\nrspec ./spec/candidate_spec.rb:14 # TriagemDeAcervo::JanelaDeAclimatacao#minutos returns 21 if umidade is greater than or equal to 70\nrspec ./spec/candidate_spec.rb:19 # TriagemDeAcervo::JanelaDeAclimatacao#minutos returns 45 if the total exceeds 45 minutes\n\n"
+  }
+}

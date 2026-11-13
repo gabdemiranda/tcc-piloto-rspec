@@ -1,0 +1,6 @@
+{
+  "status": 0,
+  "timeout": false,
+  "seconds": 0.5660612090000541,
+  "log": "warning: parser/current is loading parser/ruby25, which recognizes\nwarning: 2.5.x-compliant syntax, but you are running 3.3.8.\nwarning: please see https://github.com/whitequark/parser#compatibility-with-ruby-mri.\ncatalogued 115 candidates\n"
+}

@@ -1,0 +1,19 @@
+{
+  "alvo": "ensaio",
+  "condicao": "assistida",
+  "tempo_ativo_s": 0.166739,
+  "tempo_decorrido_s": 0.216163,
+  "totais_s": {
+    "leitura": 0.050775,
+    "preparacao": 0,
+    "revisao": 0.062957,
+    "reparo_ativo": 0,
+    "edicao": 0,
+    "validacao": 0.053007,
+    "espera_modelo": 0.049424,
+    "espera_execucao": 0,
+    "pausa_externa": 0.041312
+  },
+  "desfecho": "aceita",
+  "limite_s": 3600
+}

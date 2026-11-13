@@ -1,0 +1,20 @@
+{
+  "attempt": 3,
+  "model": {
+    "load_seconds": 1.542729592,
+    "inference_seconds": 27.754402386000002,
+    "stop_reason": "eogToken"
+  },
+  "syntax": {
+    "status": 0,
+    "timeout": false,
+    "seconds": 0.017269555999973818,
+    "log": "Syntax OK\n"
+  },
+  "rspec": {
+    "status": 1,
+    "timeout": false,
+    "seconds": 0.16533906500001194,
+    "log": "FFFF\n\nFailures:\n\n  1) RemessaDeCartazes::Rota.classificar returns :adiar if pontos_livres < 1\n     Failure/Error: expect(RemessaDeCartazes::Rota.classificar(0, true, 1)).to eq(:adiar)\n\n       expected: :adiar\n            got: :protegida\n\n       (compared using ==)\n\n       Diff:\n       @@ -1 +1 @@\n       -:adiar\n       +:protegida\n     # ./spec/candidate_spec.rb:8:in `block (3 levels) in <top (required)>'\n     # -e:1:in `<main>'\n\n  2) RemessaDeCartazes::Rota.classificar returns :protegida if vidro\n     Failure/Error: expect(RemessaDeCartazes::Rota.classificar(0, true, 0)).to eq(:protegida)\n\n       expected: :protegida\n            got: :adiar\n\n       (compared using ==)\n\n       Diff:\n       @@ -1 +1 @@\n       -:protegida\n       +:adiar\n     # ./spec/candidate_spec.rb:13:in `block (3 levels) in <top (required)>'\n     # -e:1:in `<main>'\n\n  3) RemessaDeCartazes::Rota.classificar returns :bairro if distancia_km <= 8\n     Failure/Error: expect(RemessaDeCartazes::Rota.classificar(0, true, 0)).to eq(:bairro)\n\n       expected: :bairro\n            got: :adiar\n\n       (compared using ==)\n\n       Diff:\n       @@ -1 +1 @@\n       -:bairro\n       +:adiar\n     # ./spec/candidate_spec.rb:20:in `block (3 levels) in <top (required)>'\n     # -e:1:in `<main>'\n\n  4) RemessaDeCartazes::Rota.classificar returns :regional if distancia_km > 8\n     Failure/Error: expect(RemessaDeCartazes::Rota.classificar(9, true, 0)).to eq(:regional)\n\n       expected: :regional\n            got: :adiar\n\n       (compared using ==)\n\n       Diff:\n       @@ -1 +1 @@\n       -:regional\n       +:adiar\n     # ./spec/candidate_spec.rb:27:in `block (3 levels) in <top (required)>'\n     # -e:1:in `<main>'\n\nFinished in 0.01036 seconds (files took 0.05381 seconds to load)\n4 examples, 4 failures\n\nFailed examples:\n\nrspec ./spec/candidate_spec.rb:5 # RemessaDeCartazes::Rota.classificar returns :adiar if pontos_livres < 1\nrspec ./spec/candidate_spec.rb:12 # RemessaDeCartazes::Rota.classificar returns :protegida if vidro\nrspec ./spec/candidate_spec.rb:19 # RemessaDeCartazes::Rota.classificar returns :bairro if distancia_km <= 8\nrspec ./spec/candidate_spec.rb:26 # RemessaDeCartazes::Rota.classificar returns :regional if distancia_km > 8\n\n"
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "chosen": "7B",
+  "reason": "A versão 7B foi selecionada para a coleta porque produziu uma suíte executável em um dos dois alvos, enquanto a versão 1,5B não aprovou nenhuma. A comparação de bancada é pequena e orienta a escolha operacional; não demonstra superioridade geral do modelo. O caso P01 manteve seis falhas após os reparos."
+}

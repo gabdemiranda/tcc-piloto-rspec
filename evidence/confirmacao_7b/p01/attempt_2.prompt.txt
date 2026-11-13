@@ -1,0 +1,110 @@
+Write one RSpec 3 spec file for exactly the Ruby method below. Use require_relative '../lib/triagem_de_acervo'. Do not use mocks, external libraries, filesystem, network, time, random inputs or alter the class. Use describe/it and explicit expect(...).to eq(...). Test every rule, priority and relevant boundary with representative literal inputs. Return the full Ruby file only.
+
+Contract (Portuguese):
+Método: TriagemDeAcervo::JanelaDeAclimatacao.minutos(caixas, umidade).
+Entradas: caixas é um inteiro não negativo; umidade é um inteiro de 0 a 100.
+Com zero caixas o resultado é 0, qualquer que seja a umidade. Com ao menos uma caixa, o tempo de espera é 12 minutos mais 4 minutos por caixa. Some 9 minutos se a umidade for maior ou igual a 70. O tempo final não pode superar 45 minutos. O resultado é um inteiro. A função não valida valores fora do domínio.
+
+Ruby source:
+module TriagemDeAcervo
+  class JanelaDeAclimatacao
+    def self.minutos(caixas, umidade)
+      return 0 if caixas < 1
+      espera = 12 + caixas * 4
+      espera += 9 if umidade >= 70
+      [espera, 45].min
+    end
+  end
+end
+
+Repair the preceding proposed spec; return the entire Ruby spec.
+Previous Ruby:
+require_relative '../lib/triagem_de_acervo'
+
+RSpec.describe TriagemDeAcervo::JanelaDeAclimatacao do
+  describe '.minutos' do
+    it 'returns 0 with 0 boxes regardless of humidity' do
+      expect(described_class.minutos(0, 0)).to eq(0)
+      expect(described_class.minutos(0, 100)).to eq(0)
+    end
+
+    it 'returns 12 minutes with 1 box and 0% humidity' do
+      expect(described_class.minutos(1, 0)).to eq(12)
+    end
+
+    it 'returns 16 minutes with 1 box and 70% humidity' do
+      expect(described_class.minutos(1, 70)).to eq(16)
+    end
+
+    it 'returns 20 minutes with 1 box and 100% humidity' do
+      expect(described_class.minutos(1, 100)).to eq(20)
+    end
+
+    it 'returns 24 minutes with 2 boxes and 0% humidity' do
+      expect(described_class.minutos(2, 0)).to eq(24)
+    end
+
+    it 'returns 28 minutes with 2 boxes and 70% humidity' do
+      expect(described_class.minutos(2, 70)).to eq(28)
+    end
+
+    it 'returns 32 minutes with 2 boxes and 100% humidity' do
+      expect(described_class.minutos(2, 100)).to eq(32)
+    end
+
+    it 'returns 45 minutes with 11 boxes and 0% humidity' do
+      expect(described_class.minutos(11, 0)).to eq(45)
+    end
+
+    it 'returns 45 minutes with 11 boxes and 70% humidity' do
+      expect(described_class.minutos(11, 70)).to eq(45)
+    end
+
+    it 'returns 45 minutes with 11 boxes and 100% humidity' do
+      expect(described_class.minutos(11, 100)).to eq(45)
+    end
+  end
+end
+
+RSpec/Ruby output:
+   Failure/Error: expect(described_class.minutos(2, 0)).to eq(24)
+
+       expected: 24
+            got: 20
+
+       (compared using ==)
+     # ./spec/candidate_spec.rb:23:in `block (3 levels) in <top (required)>'
+     # -e:1:in `<main>'
+
+  5) TriagemDeAcervo::JanelaDeAclimatacao.minutos returns 28 minutes with 2 boxes and 70% humidity
+     Failure/Error: expect(described_class.minutos(2, 70)).to eq(28)
+
+       expected: 28
+            got: 29
+
+       (compared using ==)
+     # ./spec/candidate_spec.rb:27:in `block (3 levels) in <top (required)>'
+     # -e:1:in `<main>'
+
+  6) TriagemDeAcervo::JanelaDeAclimatacao.minutos returns 32 minutes with 2 boxes and 100% humidity
+     Failure/Error: expect(described_class.minutos(2, 100)).to eq(32)
+
+       expected: 32
+            got: 29
+
+       (compared using ==)
+     # ./spec/candidate_spec.rb:31:in `block (3 levels) in <top (required)>'
+     # -e:1:in `<main>'
+
+Finished in 0.01242 seconds (files took 0.07318 seconds to load)
+10 examples, 6 failures
+
+Failed examples:
+
+rspec ./spec/candidate_spec.rb:10 # TriagemDeAcervo::JanelaDeAclimatacao.minutos returns 12 minutes with 1 box and 0% humidity
+rspec ./spec/candidate_spec.rb:14 # TriagemDeAcervo::JanelaDeAclimatacao.minutos returns 16 minutes with 1 box and 70% humidity
+rspec ./spec/candidate_spec.rb:18 # TriagemDeAcervo::JanelaDeAclimatacao.minutos returns 20 minutes with 1 box and 100% humidity
+rspec ./spec/candidate_spec.rb:22 # TriagemDeAcervo::JanelaDeAclimatacao.minutos returns 24 minutes with 2 boxes and 0% humidity
+rspec ./spec/candidate_spec.rb:26 # TriagemDeAcervo::JanelaDeAclimatacao.minutos returns 28 minutes with 2 boxes and 70% humidity
+rspec ./spec/candidate_spec.rb:30 # TriagemDeAcervo::JanelaDeAclimatacao.minutos returns 32 minutes with 2 boxes and 100% humidity
+

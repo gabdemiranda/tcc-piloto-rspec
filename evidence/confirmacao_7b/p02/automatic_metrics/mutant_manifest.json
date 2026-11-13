@@ -1,0 +1,728 @@
+{
+  "available": [
+    {
+      "id": "2bd7e3fc6795088c88ce2502d0c7a12b4513a461862a604ebdabe3bce7ece545",
+      "native_id": "neutral:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:6209b",
+      "kind": "Neutral",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "34b87a14964749e9ad357e1a61610629dbdeda40986d024fe5a85cbd8892790d",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:8e3cc",
+      "kind": "Evil",
+      "source": "def self.classificar\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "947bc7c97b0f8764d1d0da324e0b39d902015bbb1e3418b0fe91d718837d20ab",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:96afe",
+      "kind": "Evil",
+      "source": "def self.classificar(vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "7b14e0241c391621f6237810ac2d863071aa98701057c65f94c54457aa4bd639",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:7b6d0",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "5b377e4d1e831bf5130dfca974d5b21f6fec1c33d7543b9f6f0cb841e0126a69",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:1ea91",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "363299ec0e77c64979cc285b5dff332e2a5b9bbbacd67a7cdeef58f30ab4ec35",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:c25fe",
+      "kind": "Evil",
+      "source": "def self.classificar(_distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "cd483f966a42f9340cc91c5753335fbb6856ace7e9bfb2cfbdda5e52f93f04dd",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:f9579",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, _vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "eff6b1bcc5ac13cffea4d37cfddd881ac41f5bb5a28a84f134ceb67266780804",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:ef63e",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, _pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "05aa7261155552808e790b665721bdf327dd80d82425046b1b7b6a97505df623",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:c5a86",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  raise\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "2a1813a578ba3b79831aadb13ad1efa9dc3cc987cf968aa22720a278ec9f4148",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:e6ca8",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  super\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "6380027fe274c451374cb6ab2fcd1e6d4f3262419b4069f22dc4b4085f5c2f99",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:0c321",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "de83ad73d84d94bf814288fbdd75b6377c9951a965a975abffaca030b5d2711e",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:5fd72",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  nil\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "c4d8043a5bfa6ae80e966259fc879590c0a516a803551a3618634a07e66ec48e",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:b4f88",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  self\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "d0f884bc87be65c05273a00e77413514bd69dd80cd7b9afa70cda66e57c6395b",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:9109f",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if nil\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "89fdf3af6e1ed95913562a47c0b63c043f478018a53523422dabfd90f01daf29",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:e86d1",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if pontos_livres\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "2abcf5141e8af841c753d814406e489dccb97700a4d73da72f47c3773e89d476",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:89671",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (nil < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "8cf321055fa112537ea37cbaf275694a79f970b98ae324fe34314448730e9fbd",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:4fe5b",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (self < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "b2a6d2b7183b2559a5ec1dbcd54a04bf67504760f4888c17bf5b4ee734688da1",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:ed050",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres == 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "14246c11ab4ff76187bd7f7b4967922be033e8a5a2b1bd14466bcff5c4047850",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:3ac24",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres <= 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "1f0fb096133eb1c22dc31984a41ba6e0466b8259a71d6afdd74d231e17f4ee0b",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:a025f",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if pontos_livres.eql?(1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "65c2c8f68415b62a5dc00e14ed9525b099168c410612b3e75ac12d070ccf4d43",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:78ad4",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if pontos_livres.equal?(1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "a67c7e8d178ae0c2e32561f4851127b50f8ee7beb8552a99057d9be0283b78ac",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:d019f",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if 1\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "082f379ad797dc8d92fc9c64c28139262893f8488088698229f3a2e4f4b8aca3",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:1ed35",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < nil)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "67f9f71a8baf00002ede417423523a40b48fe39bfe05fa8331505f0848df5c71",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:7fb71",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < self)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "00665b45c315ce4cfa18be894f29dc0ff2a4a146f1b2eeeede3b8e4abe1163ff",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:2613f",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 0)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "fcf801867242493d0abb02b297ba486edbded449c445192fc2b3d609585f5152",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:e659d",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < (-1))\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "33aeb1df33ad985786cdabc6a7c19dbf9a685c5001b0be3f7a7c6c357f83fbf2",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:7f0f4",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 2)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "fe156e873d96d130bad1295ed60aa5d56272888d2c54c3e56e29d8217d610602",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:4d78b",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (!(pontos_livres < 1))\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "5f0a4850b83bf7c870487f8383eb0ab3e8f343b9f63558278b42ff13b94913fc",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:7d94d",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if true\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "ad2da09b176dae916aa8f45de9e84ec0ffea52b3c58c13fc753e96e2d9811f63",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:89860",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if false\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "f282309230153ac6a779e9e8ba3bf3917031aef0ef41286ca3f087cc98277647",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:2752b",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  return :adiar\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "703a1d3bbf7dbe66a2820a106661158f753c1bbe386bf46ac05ca0cb22205f22",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:63ea1",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    nil\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "1bbde654ba974399752b4b88d0933af8c45615130e09e3841217b894d4af9986",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:a3c5a",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    self\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "9e72b967f3d61f84f540045ef074135b5fc515e01fc1c594ce409c9d7ccfc8e2",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:e295b",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "1aae963a31e3b665f5966b018b88ad3cbbaf1e939b351076f50897285b3b56ff",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:20b71",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return nil\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "630c5a64685ea8cf611dd6691374d7aef42b9d8d0c419fce4f568118a2314bd2",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:18474",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return self\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "1a5f8cb59bd9b62af11fcf6efd3ff901204a7eab4cca4363fa8011581c0c2699",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:e4c4e",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar__mutant__\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "5cec6715da99e668d1bd1eb2c8f8974e2b8249507b11fd511e8ef5a0b015fb24",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:1984d",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "bcd6429fbb39921c6d02e335bffd131881a9b70b3e8bf81b6b939d0bf29a6f12",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:4d744",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  nil\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "435da63f1534326f4873db191e449d7716c006b2c152a4baf30aef115ab2d8e4",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:3e964",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  self\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "da46922402d9a14b8a442ba2513a43a82f701e56548fdb255fbe166442b32880",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:ba275",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if nil\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "5f21f207188ffc899d0c123341b39741f138c28d9056407fe979b2f75e2c8774",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:9f187",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if (!vidro)\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "e2fcdfea0936c132c8dbbce1d174571f79220cbe02189eb95f8fe55e8a0416c2",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:1950e",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if true\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "988233532eed93ea2683866f60e8cff45f50031c074ef3c86b6d2e14d2c9c519",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:07f89",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if false\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "9b10643fc474a2179ae4d6afee10560c9b1bf5efcbadf68190f3ae837c330f4a",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:0ee2b",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  return :protegida\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "f8b73caf1971afca83d9f6c1fd3d10b5f9e85b63af5f0f2a1ba02ed0b3076cfc",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:5ada0",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    nil\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "327a6c6865e4631c09dd75dfe6baf5b2b230b60620f7cdd04ff5404d17cc8e4c",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:1c7b9",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    self\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "580a067fe8051228a0bd53790216fa896231de552bb5d9dc5d205161d4ab800c",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:bc3d1",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "33770a2e11d7ae1363527132b122eca84ce8fc7c4c651251642ce42825aa8ef0",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:97035",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return nil\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "fef8c7322ac67b288ad1743674e60e50e1a015d4fe5d8721adadb5dc9382ae15",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:d23b7",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return self\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "0d71f74d6648e58c4722bb2988b1017320c9458064fb5651d5a52bbc92743370",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:d47b7",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida__mutant__\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "1bc4a4953fca6526d783c1b7cac2a79812dca53dd909f14b7726e08508d00a40",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:29847",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if vidro\n    return :protegida\n  end\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "29bb09d414dec194cc87b3be36e9e7ba42a30c8b8d9f9731b6c79766e3380955",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:fbb1b",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  nil\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "5cf824f95c4eea04c7de8897e5a0afece17a1c7483045737cb91ed4ce1eb214d",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:6cd29",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  self\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "3565d3f67b1e1b37bf876a8a9896e5189a5aecafb27e0baaf8dbf62051587ee3",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:31b3c",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if nil\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "df9ff2c7c467932bb8047ef002d3cb822b9fa3903f233ee303f423f347e61226",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:555c1",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if distancia_km\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "b1083384a758348aab7f2651bbbf27e23eda29dd626c759bf112d99a1f74f490",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:39f44",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (nil <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "4d179292ecd8f1204ea44e8a4d6d2ccfa2b88bc80da8592e3027a2fb0a8d018f",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:0cd36",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (self <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "bd2275ac6c49b800602929fd9960cadd7c7a01b4dff8c74c86a8dcc66f79c769",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:ad53c",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km < 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "d2660225cd344b77165095f34062f692eb902c134fe4b1152ca7e5fbe29aee7e",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:7b4d7",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km == 8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "71a4c96834b3a27b59910dfcb0ca5dbc95cb867d3483aa783197ac1d3512a038",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:c2888",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if distancia_km.eql?(8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "5b8992207d45a71164c40c05778f8e6a560b12dba630366c792c5d68d57a93b1",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:c2f86",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if distancia_km.equal?(8)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "656715a6373bf5d2da69a54b382c717f745beff0686478d923c84488ced53648",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:f2d86",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if 8\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "bc68149e968b090b036e93955ad989b2dffd5cf4617b15746135ab30e7aa58d9",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:a0089",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= nil)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "fb8ad7fd3ad5312447674423099d778b074897deaa65c1ff4a6dc42c5a608480",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:9a1a1",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= self)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "112046a2106cab545d8631e15f4d2af91a1cf396d4f4bfeb55d08a0d1b5d3710",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:6b3f3",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 0)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "a74472bd597264dbcc1f88acdf4c6ff31aa1ff111c5d55952d5de71c39bbf66a",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:b1506",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 1)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "60769f6c014d827906ab1b40f926aebb49797a0acaa1ae7983b0bdfacb61c2e5",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:b3306",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= (-8))\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "731ccafb68331ee73ff28fda16eb059b3bdd15444926bca7cbcae11b10c9d6f1",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:29d9b",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 9)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "95788695f707cf0e19e0a44cfac82c578008b74bb381392f301fefb46b1a4b3a",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:723b9",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 7)\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "8b86676dc633445a0da0a4266c79f10a068a292089dbe9a1d365a8ab48002035",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:ec99d",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (!(distancia_km <= 8))\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "10f47627fa11ddb3c559cebcb7095df13aa28ffa003bb709e14a57b414cd13f9",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:07a77",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if true\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "bff9650314078541f79e9bd748fbef06ae2adb0e33dc577f87aa98a7e79346e9",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:4ec81",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if false\n    return :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "b424a35062c1f159edc2be9a9d3ebb2b42f8e3cc03fd0cd8c5ea3e2e152f5687",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:8b15e",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  return :bairro\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "b90e984a3eb5c7f88db181dbd590c3f1f63312bc02f1679e0d390569270b04fc",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:c794e",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    nil\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "f85fdba33ce7a9e281e7e9d39c096b9a820a857e139bc9730f52ce44cdf6bf05",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:ba295",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    self\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "da04b6a4613f16b48c7ebff765a345fe6b20e06d0cbd116d4464a49067d346f2",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:f2cf3",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    :bairro\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "80878bf87e5019b57e56b52ac2f97140ecf4844318efe03b08ecf4b341b0a718",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:d31c1",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return nil\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "88a3e1d5f31a744561f122478ac88e30246ac26f5bfbad6abe266c651bb29a55",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:6b488",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return self\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "3188bfbc52ff5a79fd7f23d0b97f30e4858af0f953374ac762c5fd66d607c774",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:d7cb0",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro__mutant__\n  end\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "7e559677ecfa67229b2e3937a21681625c906cb78e472e9d91ed4d3d60f4f6f3",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:d308d",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (distancia_km <= 8)\n    return :bairro\n  end\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "ec9f4ad890912b4ceac32125b9d174da90dfecbb040688c8aef321857d9e4681",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:384bc",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  nil\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "60a4f33569c1a111706fb9f32548d4c743958a71fc94f5d33ddd42368337fa5f",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:265f2",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  self\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "cfa2bbd37d793c57ea1eb98c633ae6ec7a16a75fb9478aee94462510ab0ef658",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:c3abf",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional__mutant__\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    },
+    {
+      "id": "0783f26b16f0930e87778094526e7ffbd0f4ec1d901b2898d82d3604bac04d2d",
+      "native_id": "evil:RemessaDeCartazes::Rota.classificar:/study/lib/remessa_de_cartazes.rb:3:b2a9b",
+      "kind": "Evil",
+      "source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  :regional\nend",
+      "original_source": "def self.classificar(distancia_km, vidro, pontos_livres)\n  if (pontos_livres < 1)\n    return :adiar\n  end\n  if vidro\n    return :protegida\n  end\n  if (distancia_km <= 8)\n    return :bairro\n  end\n  :regional\nend",
+      "syntax_valid": true
+    }
+  ],
+  "selected_ids": [
+    "5b8992207d45a71164c40c05778f8e6a560b12dba630366c792c5d68d57a93b1",
+    "1bbde654ba974399752b4b88d0933af8c45615130e09e3841217b894d4af9986",
+    "eff6b1bcc5ac13cffea4d37cfddd881ac41f5bb5a28a84f134ceb67266780804",
+    "cfa2bbd37d793c57ea1eb98c633ae6ec7a16a75fb9478aee94462510ab0ef658",
+    "7e559677ecfa67229b2e3937a21681625c906cb78e472e9d91ed4d3d60f4f6f3",
+    "5cec6715da99e668d1bd1eb2c8f8974e2b8249507b11fd511e8ef5a0b015fb24",
+    "1aae963a31e3b665f5966b018b88ad3cbbaf1e939b351076f50897285b3b56ff",
+    "c4d8043a5bfa6ae80e966259fc879590c0a516a803551a3618634a07e66ec48e",
+    "947bc7c97b0f8764d1d0da324e0b39d902015bbb1e3418b0fe91d718837d20ab",
+    "ad2da09b176dae916aa8f45de9e84ec0ffea52b3c58c13fc753e96e2d9811f63",
+    "a74472bd597264dbcc1f88acdf4c6ff31aa1ff111c5d55952d5de71c39bbf66a",
+    "cd483f966a42f9340cc91c5753335fbb6856ace7e9bfb2cfbdda5e52f93f04dd",
+    "df9ff2c7c467932bb8047ef002d3cb822b9fa3903f233ee303f423f347e61226",
+    "95788695f707cf0e19e0a44cfac82c578008b74bb381392f301fefb46b1a4b3a",
+    "9e72b967f3d61f84f540045ef074135b5fc515e01fc1c594ce409c9d7ccfc8e2",
+    "b424a35062c1f159edc2be9a9d3ebb2b42f8e3cc03fd0cd8c5ea3e2e152f5687",
+    "2abcf5141e8af841c753d814406e489dccb97700a4d73da72f47c3773e89d476",
+    "e2fcdfea0936c132c8dbbce1d174571f79220cbe02189eb95f8fe55e8a0416c2",
+    "fb8ad7fd3ad5312447674423099d778b074897deaa65c1ff4a6dc42c5a608480",
+    "7b14e0241c391621f6237810ac2d863071aa98701057c65f94c54457aa4bd639",
+    "1a5f8cb59bd9b62af11fcf6efd3ff901204a7eab4cca4363fa8011581c0c2699",
+    "da04b6a4613f16b48c7ebff765a345fe6b20e06d0cbd116d4464a49067d346f2",
+    "f85fdba33ce7a9e281e7e9d39c096b9a820a857e139bc9730f52ce44cdf6bf05",
+    "89fdf3af6e1ed95913562a47c0b63c043f478018a53523422dabfd90f01daf29",
+    "8b86676dc633445a0da0a4266c79f10a068a292089dbe9a1d365a8ab48002035",
+    "4d179292ecd8f1204ea44e8a4d6d2ccfa2b88bc80da8592e3027a2fb0a8d018f",
+    "60769f6c014d827906ab1b40f926aebb49797a0acaa1ae7983b0bdfacb61c2e5",
+    "de83ad73d84d94bf814288fbdd75b6377c9951a965a975abffaca030b5d2711e",
+    "bff9650314078541f79e9bd748fbef06ae2adb0e33dc577f87aa98a7e79346e9",
+    "1f0fb096133eb1c22dc31984a41ba6e0466b8259a71d6afdd74d231e17f4ee0b",
+    "60a4f33569c1a111706fb9f32548d4c743958a71fc94f5d33ddd42368337fa5f",
+    "327a6c6865e4631c09dd75dfe6baf5b2b230b60620f7cdd04ff5404d17cc8e4c",
+    "bd2275ac6c49b800602929fd9960cadd7c7a01b4dff8c74c86a8dcc66f79c769",
+    "80878bf87e5019b57e56b52ac2f97140ecf4844318efe03b08ecf4b341b0a718",
+    "05aa7261155552808e790b665721bdf327dd80d82425046b1b7b6a97505df623",
+    "f8b73caf1971afca83d9f6c1fd3d10b5f9e85b63af5f0f2a1ba02ed0b3076cfc",
+    "3188bfbc52ff5a79fd7f23d0b97f30e4858af0f953374ac762c5fd66d607c774",
+    "988233532eed93ea2683866f60e8cff45f50031c074ef3c86b6d2e14d2c9c519",
+    "f282309230153ac6a779e9e8ba3bf3917031aef0ef41286ca3f087cc98277647",
+    "33770a2e11d7ae1363527132b122eca84ce8fc7c4c651251642ce42825aa8ef0"
+  ],
+  "seed": 20261113,
+  "cap": 40
+}
