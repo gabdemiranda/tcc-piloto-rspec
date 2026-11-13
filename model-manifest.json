@@ -3,14 +3,14 @@
   "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
   "config": {
     "mediaType": "application/vnd.docker.container.image.v1+json",
-    "digest": "sha256:152cb442202b836b5415fe4397169982b74dc3bdbb06b9777a126e0161c740da",
+    "digest": "sha256:d9bb33f2786931fea42f50936a2424818aa2f14500638af2f01861eb2c8fb446",
     "size": 487
   },
   "layers": [
     {
       "mediaType": "application/vnd.ollama.image.model",
-      "digest": "sha256:29d8c98fa6b098e200069bfb88b9508dc3e85586d20cba59f8dda9a808165104",
-      "size": 986048576
+      "digest": "sha256:60e05f2100071479f596b964f89f510f057ce397ea22f2833a0cfe029bfc2463",
+      "size": 4683074048
     },
     {
       "mediaType": "application/vnd.ollama.image.system",
