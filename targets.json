@@ -1,0 +1,4 @@
+{
+  "p01": {"source": "lib/triagem_de_acervo.rb", "specification": "specifications/p01.md", "subject": "TriagemDeAcervo::JanelaDeAclimatacao.minutos"},
+  "p02": {"source": "lib/remessa_de_cartazes.rb", "specification": "specifications/p02.md", "subject": "RemessaDeCartazes::Rota.classificar"}
+}
